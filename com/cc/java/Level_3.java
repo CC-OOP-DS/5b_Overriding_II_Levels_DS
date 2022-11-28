@@ -7,7 +7,7 @@ public class Level_3 {
 
     protected String play(){
         points++;
-        return "Yahoo, " + levelName + " here, and I have " + points + " points!";
+        return "Yahoo, I´m in " + levelName + ", and I have " + points + " points!";
     }
 
 }

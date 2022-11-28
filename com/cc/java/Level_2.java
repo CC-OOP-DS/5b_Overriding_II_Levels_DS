@@ -9,7 +9,7 @@ public class Level_2 extends Level_3{
      
       if (points < this.levelPoints) {
           points++;
-          return "Yahoo, " + levelName + " here, and I have " + points + " points!";
+          return "Yahoo, I´m in " + levelName + ", and I have " + points + " points!";
       } else {
           return super.play();
       }
